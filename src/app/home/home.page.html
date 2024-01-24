@@ -1,20 +1,39 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <ion-slides pager="true">
+    <ion-slide>
+      <ion-card>
+        <!-- Contenido de la primera tarjeta -->
+        <ion-card-header>
+          <ion-card-title>Tarjeta 1</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Contenido de la tarjeta 1.
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <ion-slide>
+      <ion-card>
+        <!-- Contenido de la segunda tarjeta -->
+        <ion-card-header>
+          <ion-card-title>Tarjeta 2</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Contenido de la tarjeta 2.
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-slide>
+      <ion-card>
+        <!-- Contenido de la tercera tarjeta -->
+        <ion-card-header>
+          <ion-card-title>Tarjeta 3</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Contenido de la tarjeta 3.
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
 </ion-content>
